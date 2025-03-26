@@ -23,8 +23,7 @@ Chat with PDF - Conversational AI model/
 │   ├── loadllm.py           # LLM loader
 │   └── requirements.txt     # Dependencies
 ├── Test_Sample/
-│   ├── story.pdf
-│   └── story_2.pdf
+│   └── story.pdf
 ├── Results/
 │   ├── IMG-20250323-WA0002.jpg
 │   ├── IMG-20250323-WA0003.jpg
@@ -38,7 +37,7 @@ Chat with PDF - Conversational AI model/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/chat-with-pdf-llama.git
+git clone https://github.com/ishapaliwal/chat-with-pdf-llama.git
 cd chat-with-pdf-llama
 ```
 
