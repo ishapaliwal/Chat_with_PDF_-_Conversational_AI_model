@@ -16,21 +16,21 @@ Interact with your PDFs using natural language queries powered by **LLaMA 2 (7B)
 ## Technologies Used
 
 - **PDF Ingestion**
-- - **LangChain:** Used to orchestrate the document processing pipeline, particularly the DocumentLoader, RecursiveCharacterTextSplitter, and integration with vector stores. It provides modularity and flexibility for chaining operations on text and retrieval.
-- - **PyMuPDF (fitz):** Used to extract text from uploaded PDFs efficiently.
-- - **Text Splitter:** Splits long PDF text into manageable chunks for embedding.
+  - **LangChain:** Used to orchestrate the document processing pipeline, particularly the DocumentLoader, RecursiveCharacterTextSplitter, and integration with vector stores. It provides modularity and flexibility for chaining operations on text and retrieval.
+  - **PyMuPDF (fitz):** Used to extract text from uploaded PDFs efficiently.
+  - **Text Splitter:** Splits long PDF text into manageable chunks for embedding.
 
 - **Language Model**
-- - **LLaMA 2 7B Chat GGUF:** A quantized large language model optimized for inference on CPUs and lightweight environments using ggml backend.
-- - **Quantization Level Q4_K_M:** This is a mid-range quantization providing a good trade-off between performance and memory usage.
-- - **llama-cpp-python:** The inference engine that runs the GGUF quantized LLaMA model in Python using efficient CPU-based matrix operations.
+  - **LLaMA 2 7B Chat GGUF:** A quantized large language model optimized for inference on CPUs and lightweight environments using ggml backend.
+  - **Quantization Level Q4_K_M:** This is a mid-range quantization providing a good trade-off between performance and memory usage.
+  - **llama-cpp-python:** The inference engine that runs the GGUF quantized LLaMA model in Python using efficient CPU-based matrix operations.
 
 - **Embedding & Retrieval**
-- - **FAISS (Facebook AI Similarity Search):** Fast vector similarity search for finding the most relevant text chunks from the PDF based on cosine similarity.
-- - **Embedding Model:** Uses sentence-transformers to generate vector representations of the text for similarity comparison.
+  - **FAISS (Facebook AI Similarity Search):** Fast vector similarity search for finding the most relevant text chunks from the PDF based on cosine similarity.
+  - **Embedding Model:** Uses sentence-transformers to generate vector representations of the text for similarity comparison.
 
 - **Interface**
-- - **Streamlit:** Provides the web UI for uploading PDFs and entering queries. Fast, interactive, and easy to deploy.
+  - **Streamlit:** Provides the web UI for uploading PDFs and entering queries. Fast, interactive, and easy to deploy.
 
 ## Directory Structure
 ```
