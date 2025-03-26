@@ -37,28 +37,28 @@ Chat with PDF - Conversational AI model/
 ## Setup Instructions
 
 ### 1. Clone the Repository
-
+```bash
 git clone https://github.com/yourusername/chat-with-pdf-llama.git
 cd chat-with-pdf-llama
-
+```
 
 ### 2. Create Virtual Environment & Install Dependencies
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r Code/requirements.txt
-
+```
 
 ### 3. Download the Model
 Download the LLaMA 2 7B model from Hugging Face:
 - [llama-2-7b-chat.Q4_K_M.gguf](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf)
 
 Place the file in a folder named `models/` inside the root project directory:
-
+```bash
 chat-with-pdf-llama/
 └── models/
     └── llama-2-7b-chat.Q4_K_M.gguf
-
+```
 
 ---
 
