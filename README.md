@@ -109,5 +109,3 @@ The app reads and chunks the uploaded PDF, and intelligently matches the user’
 - Enable OCR for scanned PDFs
 - Allow saving chat history
 - Add feedback loop for model improvement
-
----
