@@ -1,4 +1,4 @@
-# Chat with PDF -
+# Chat with PDF
 
 Interact with your PDFs using natural language queries powered by **LLaMA 2 (7B) Chat GGUF** and a custom-built Streamlit interface. This application enables users to upload PDFs and ask questions, receiving intelligent answers generated from the PDF content.
 
