@@ -100,7 +100,7 @@ The app reads and chunks the uploaded PDF, and intelligently matches the user’
 ## Model Info
 - **Model**: LLaMA 2 7B Chat
 - **Quantization**: Q4_K_M GGUF
-- **Source**: [HuggingFace](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF)
+- **Source**: [HuggingFace](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/blob/main/llama-2-7b-chat.Q4_K_M.gguf)
 
 ---
 
